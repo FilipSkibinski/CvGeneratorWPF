@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="VIEW">
+    <Position X="7.789" Y="0.5" Height="0.607" Width="1.492" />
+  </Comment>
+  <Comment CommentText="VIEWMODEL">
+    <Position X="10.029" Y="0.5" Height="0.607" Width="1.492" />
+  </Comment>
+  <Comment CommentText="MODEL">
+    <Position X="12.456" Y="0.5" Height="0.607" Width="1.492" />
+  </Comment>
+  <Class Name="CvGenerator.Bootstrapper">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bootstrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvGenerator.Models.PDFExporter">
+    <Position X="12.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PDFExporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvGenerator.Models.PersonModel">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACAAgAAIAAAAQAQABAIQAAABQAAAAAAAQAA=</HashCode>
+      <FileName>Models\PersonModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvGenerator.Models.SQLiteDataAcces">
+    <Position X="12.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAgAAAAAIAAAAA=</HashCode>
+      <FileName>Models\SQLiteDataAcces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvGenerator.ViewModels.ShellViewModel">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mAARoABAACgAgAAKBEBAQAQSFAIQAAAhQBAAAAAOQAE=</HashCode>
+      <FileName>ViewModels\ShellViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CvGenerator.Views.ShellView" BaseTypeListCollapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Views\ShellView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Object">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Caliburn.Micro.Screen">
+    <Position X="5" Y="7" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Caliburn.Micro.BootstrapperBase">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Caliburn.Micro.ViewAware">
+    <Position X="3" Y="7" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Caliburn.Micro.PropertyChangedBase">
+    <Position X="1" Y="7" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,34 @@
+﻿<Application x:Class="CvGenerator.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CvGenerator">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <local:Bootstrapper x:Key="Bootstrapper"/>
+                </ResourceDictionary>
+                <ResourceDictionary Source="pack://application:,,,/FluentWPF;component/Styles/Controls.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+                <!-- Primary -->
+                <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="#FF63CFFF"/>
+                <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="White"/>
+                <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="#FF00A1DB"/>
+                <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="White"/>
+                <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="#FF0475A1"/>
+                <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="White"/>
+
+                <!-- Secondary -->
+                <SolidColorBrush x:Key="SecondaryHueLightBrush" Color="Black"/>
+                <SolidColorBrush x:Key="SecondaryHueLighForegroundtBrush" Color="Black"/>
+                <SolidColorBrush x:Key="SecondaryHueMidBrush" Color="Black"/>
+                <SolidColorBrush x:Key="SecondaryHueMidForegroundBrush" Color="Black"/>
+                <SolidColorBrush x:Key="SecondaryHueDarkBrush" Color="Black"/>
+                <SolidColorBrush x:Key="SecondaryHueDarkForegroundBrush" Color="Black"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
